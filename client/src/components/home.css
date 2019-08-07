@@ -1,0 +1,152 @@
+/* *,
+body {
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+} */
+.main-content {
+  width: 100%;
+}
+
+.sec {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 75vh;
+  /* height: 10%; */
+  background: #23d279;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  align-items: center;
+}
+.row-center {
+  justify-content: center;
+  align-items: baseline;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.hero-text {
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+
+  font-weight: 700;
+}
+.sub-hero {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+.sub-hero-text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: #23d279;
+}
+.feature {
+  position: relative;
+  padding: 4rem 0;
+}
+.cus-feature {
+  position: relative;
+  padding: 2rem 0;
+}
+
+#curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+#curve path {
+  fill: #fff;
+}
+
+.point {
+  justify-content: center;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  /* height: 200px;
+  width: 400px; */
+}
+/* .custom-gif {
+  height: 200px;
+  width: 400px;
+} */
+.point-title {
+  color: #444;
+  /* font-size: 3rem; */
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+.point-text {
+  color: #666;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.call-to-action-layer {
+  padding: 4rem 0;
+  background-image: linear-gradient(to top right, #23d279 40%, #0c52ef);
+}
+.footer-section {
+  padding-top: 1rem;
+}
+.footer-sec {
+  /* padding: 4rem 0; */
+}
+.social-svg {
+  width: 100px;
+  height: 100px;
+  color: #0c52ef;
+  border-radius: 50%;
+}
+.social-Icon {
+  height: 55px;
+  width: 55px;
+}
+
+.customer-points {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  /* .hero-text {
+    font-size: 2rem;
+  } */
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
